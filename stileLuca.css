@@ -1,0 +1,126 @@
+
+.elenco {
+    list-style-type: none;
+    margin-top: 40px;
+    }
+
+.elenco a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    }
+
+#md39{
+    margin-top: 60px;
+    font-size: 12px;
+}
+
+.schede_mete{
+    left: -25%;
+    overflow: inherit;
+    position: relative;
+}
+
+.carousel-item active{
+    width: 100%;
+}
+
+
+.container-fluid{
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.vacanza{
+    text-align: center;
+    width: 22vw;
+    border-radius: 8rem;
+    padding: 1.5rem;
+}
+
+
+.testo{
+   text-align: center;
+   font-family:'Times New Roman', Times, serif;
+   font-size: medium;
+}
+
+.titolo{
+    text-align: center;
+    font-size: 30;
+    padding: 1rem;
+}
+
+.titolo_carosello_fuerte{
+    margin-bottom: 20%;
+}
+
+.titolo1{
+    text-align: center;
+    font-size: 30;
+    padding: 1rem;
+}
+
+.titolo3{
+    font-size: 25;
+    padding: 1rem;
+    text-align: center;
+}
+
+.link{    
+       text-align: right;
+}
+
+.d-grid{
+    display: inline grid!important;
+ }
+ 
+.bottone{
+    width: 100px;
+}
+
+
+.margine10{
+    margin-bottom: 50px;
+}
+
+.opacita{
+    
+    opacity: 0.92;
+}
+
+
+.box1{
+     margin-left: 400;
+}
+
+
+.foto4{
+    width: 206px;
+}
+
+#rf1{
+    color: black;
+}
+
+.foto5{
+    margin-top: 10px;
+    width: 206px;
+}
+
+
+.xxx{
+    text-align: center;
+}
+
+
+.container{
+    text-align: center;
+}
+
+.mb-3 {
+    margin-bottom: 1rem!important;
+    margin: auto;
+}

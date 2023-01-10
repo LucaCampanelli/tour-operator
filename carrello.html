@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="eng">
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Antonio Scoppa, Camilla Antonini, Gianluca Bruno, Luca Campanelli">
+        <link rel="icon" href="logo.png" type="image/icon type">
+        <title>Carrello</title>
+
+
+
+
+
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="stileGianluca.css">
+        <link type="text/css" rel="stylesheet" href="stileAntonio.css">
+        <link type="text/css" rel="stylesheet" href="stileLuca.css">
+        <link type="text/css" rel="stylesheet" href="stileCamilla.css">
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+        <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+        <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+        <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    </head>
+    
+    <body>
+      <style>
+    
+    .row2 { 
+      display: flex;
+      -ms-flex-wrap: wrap; 
+      flex-wrap: wrap;
+      margin: 0 -16px;
+    }
+    
+    .col-25 {
+      -ms-flex: 25%; 
+      flex: 25%;
+    }
+    
+    .col-50 {
+      -ms-flex: 50%; 
+      flex: 50%;
+    }
+    
+    .col-75 {
+      -ms-flex: 75%; 
+      flex: 75%;
+    }
+    
+    .col-25,
+    .col-50,
+    .col-75 {
+      padding: 0 16px;
+    }
+    
+    .container1 {
+      background-color: #f2f2f2;
+      padding: 5px 20px 15px 20px;
+      border: 1px solid lightgrey;
+      border-radius: 3px;
+      margin-left:5%;
+    }
+    
+    .abcd {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    
+    label {
+      margin-bottom: 10px;
+      display: block;
+    }
+    
+    .icon-container {
+      margin-bottom: 20px;
+      padding: 7px 0;
+      font-size: 24px;
+    }
+    
+    #aaaaaa {
+      color: white;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      width: 100%;
+      border-radius: 3px;
+      cursor: pointer;
+      font-size: 17px;
+    }
+    
+    
+    @media (max-width: 800px) {
+      .row2 {
+        flex-direction: column-reverse;
+      }
+      .col-25 {
+        margin-bottom: 20px;
+      }
+    }
+    </style>
+    
+<script src="js/bootstrap.min.js"></script>
+
+        <!--header-->
+        <div class="sticky-md-top">
+
+          <header class="mb-3 border-bottom sticky_header01">
+              <div class="container">
+                  <!--logo-->
+                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                  <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none">
+                      <img src="logo.png" class="img-fluid" width="100px" height="100px">
+                  </a>
+                  <!--collegamenti navbar-->
+                  <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                    <li class="hover_header"><a href="index.html" class="nav-link px-2 link-dark">Home</a></li>
+                    <li class="hover_header"><a href="chi_siamo.html" class="nav-link px-2 link-dark">Chi siamo</a></li>
+                    <li class="hover_header"><a href="destinazioni.html" class="nav-link px-2 link-dark">Destinazioni</a></li>
+                    <li class="hover_header"><a href="fiordi.html" class="nav-link px-2 link-dark">Offerte</a></li>
+                    <li class="hover_header"><a href="contatti.html" class="nav-link px-2 link-dark">Contatti</a></li>
+                  </ul>
+                  <!--search-->
+   <!--search-->
+                  <nav class="navbar col-md-3">
+                      <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="cerca" aria-label="Cerca">
+                          <button class="btn btn-outline-success btn-mio mouse" type="submit">Cerca</button>
+                      </form>
+  
+  </nav>
+  
+  
+                  <!--tasti carrello e account-->
+                  <div class="col-md-3 text-end">
+                      <a href="carrello.html" target="_blank"><img src="immagini/shopping-cart.png" width="12%" height="12%" class="icone_margine"></a>
+                      <a href="log_in.html" target="_blank"><img src="immagini/user.png" width="13%" height="13%" class="icone_margine" id="usericon_margin"></a>
+                    </div>
+                </div>
+              </div>
+            </header>
+          </div>
+  
+
+
+          <div class="container-fluid">
+            <h1 style="text-align: center;">Il tuo ordine</h1>
+            <div class="row2" style="margin-top: 2%;">
+        <div class="col-12 col-lg-7">
+          <div class="container1">
+      
+              <div class="row">
+                <div class="col-50">
+                  <h3>I tuoi dati</h3>
+                  <label for="fname"><i class="fa fa-user"></i> Nome e cognome</label>
+                  <input type="text" class="abcd" id="fname" name="firstname" placeholder="Nome e cognome">
+                  <span id="messaggionome">Attenzione, inserisci nome e cognome!</span>
+                  <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                  <input type="text" class="abcd" id="email" name="email" placeholder="email@esempio.com">
+                  <span id="messaggioemail">Attenzione, inserisci email!</span>
+                  <label for="adr"><i class="fa fa-address-card-o"></i> Paese</label>
+                  <input type="text" class="abcd" id="paese" name="paese" placeholder="Il tuo Paese">
+                  <span id="messaggiopaese">Attenzione, inserisci il Paese!</span>
+      
+                  <div class="row">
+                    <div class="col-50">
+                      <label for="state">Città</label>
+                      <input type="text" class="abcd" id="citta" name="citta" placeholder="La tua città">
+                      <span id="messaggiocitta">Attenzione, inserisci la tua città!</span>
+                    </div>
+                    <div class="col-50">
+                      <label for="zip">Codice postale</label>
+                      <input type="text" class="abcd" id="codicepostale" name="codicepostale" placeholder="Codice postale">
+                      <span id="messaggiocodicepostale">Attenzione, inserisci il tuo codice postale!</span>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-50">
+                  <h3>Pagamento</h3>
+                  <label for="cname">Nome sulla carta</label>
+                  <input type="text" class="abcd" id="nomecarta" name="nomecarta" placeholder="Nome e cognome">
+                  <span id="messaggionomecarta">Attenzione, inserisci il tuo nome sulla carta!</span>
+                  <label for="ccnum">Numero carta di credito</label>
+                  <input type="text" class="abcd" id="numerocarta" name="numerocarta" placeholder="1111-2222-3333-4444">
+                  <span id="messaggionumerocarta">Attenzione, inserisci il tuo numero sulla carta!</span>
+                  <label for="expmonth">Mese e anno di scadenza</label>
+                  <input type="text" class="abcd" id="mesescadenza" name="mesescadenza" placeholder="Mese e anno di scadenza">
+                  <span id="messaggiomesescadenza">Attenzione, inserisci il mese e l'anno di scadenza!</span>
+                    <div class="row2">
+                    <div class="col-50">
+                      <label for="cvv">cvv</label>
+                      <input type="text" class="abcd" id="cvv" name="cvv" placeholder="cvv">
+                      <span id="messaggiocvv">Attenzione, inserisci il tuo cvv!</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Accetto i termini del contratto
+                  </label>
+                </div>
+      
+            </div>
+            <button onclick="controllaform()" value="Completa pagamento" class="btn btn-mio mouse" id="aaaaaa"> Completa pagamento </button>
+            </form>
+          </div>
+        </div>
+      
+        <div class="col-25">
+          <div class="container1">
+            <h4>Riepilogo ordine
+            </h4>
+            <p><a href="fiordi.html">Tour Fiordi</a> <b>1500 €</b></p>
+            <p>Assicurazione <b>300 €</b></p>
+            <hr>
+            <p>Totale <b>1800 €</b></p>
+          </div>
+        </div>
+      </div>
+
+      <style>
+        span{
+            color: red;
+            display: none;
+        }
+       </style>
+
+      <script>
+        function controllaform() {
+            let nome = document.getElementById("fname").value;
+            let email = document.getElementById("email").value;
+            let paese = document.getElementById("paese").value;
+            let citta = document.getElementById("citta").value;
+            let codicepostale = document.getElementById("codicepostale").value;
+            let nomecarta = document.getElementById("nomecarta").value;
+            let numerocarta = document.getElementById("numerocarta").value;
+            let mesescadenza = document.getElementById("mesescadenza").value;
+            let cvv = document.getElementById("cvv").value;
+
+            console.log(nome)
+    
+            if(nome == ""){
+                    document.getElementById("messaggionome").style.display = "block";
+                }else{
+                    document.getElementById("messaggionome").style.display = "none";
+                }
+                if(email == ""){
+                document.getElementById("messaggioemail").style.display = "block";
+            }else{
+                document.getElementById("messaggioemail").style.display = "none";
+        }if(paese == ""){
+                document.getElementById("messaggiopaese").style.display = "block";
+            }else{
+                document.getElementById("messaggiopaese").style.display = "none";
+            }
+          if(citta == ""){
+                document.getElementById("messaggiocitta").style.display = "block";
+            }else{
+                document.getElementById("messaggiocitta").style.display = "none";
+            }
+            if(codicepostale == ""){
+                document.getElementById("messaggiocodicepostale").style.display = "block";
+            }else{
+                document.getElementById("messaggiocodicepostale").style.display = "none";
+            }
+            if(nomecarta == ""){
+                    document.getElementById("messaggionomecarta").style.display = "block";
+                }else{
+                    document.getElementById("messaggionomecarta").style.display = "none";
+                }
+                if(numerocarta == ""){
+                    document.getElementById("messaggionumerocarta").style.display = "block";
+                }else{
+                    document.getElementById("messaggionumerocarta").style.display = "none";
+                }
+                if(mesescadenza == ""){
+                    document.getElementById("messaggiomesescadenza").style.display = "block";
+                }else{
+                    document.getElementById("messaggiomesescadenza").style.display = "none";
+                }
+                if(cvv == ""){
+                    document.getElementById("messaggiocvv").style.display = "block";
+                }else{
+                    document.getElementById("messaggiocvv").style.display = "none";
+                }
+          }
+    </script>
+    </div>
+       <!--footer-->
+       <div class="footer-top">
+        <div class="container-fluid">
+            <hr>
+          <div class="row" id="footer_informazioni">
+  
+            <div class="col-12 col-md-3 col-lg-3 newsletter_footer">
+                <h4>Iscriviti alla nostra Newsletter</h4>
+                <p>Rimani aggiornato sulle nostre offerte e novità!</p>
+                <form action="" method="post">
+                  <input type="email" name="email"><input type="submit" value="Iscriviti" class="btn-mio mouse">
+                </form>
+              </div>
+  
+            <div class="col-12 col-md-3 col-lg-3 footer-links">
+              <ul class="elenco">
+                <li class="hover_footer"><i class="bx bx-chevron-right"></i><a href="chi_siamo.html">Chi siamo</a></li>
+                <li class="hover_footer"><i class="bx bx-chevron-right"></i><a href="contatti.html">Contatti</a></li>
+                <li class="hover_footer"><i class="bx bx-chevron-right"></i><a href="destinazioni.html">Destinazioni</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-12 col-md-3 col-lg-3 footer-links">
+              <ul class="elenco">
+                <li class="hover_footer"><i class="bx bx-chevron-right"></i><a href="fiordi.html">Offerte</a></li>
+                <li class="hover_footer"><i class="bx bx-chevron-right"></i><a href="carrello.html">Area riservata</a></li>
+                <li class="hover_footer"><i class="bx bx-chevron-right"></i><a href="faq.html">FAQ</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-12 col-md-3 col-lg-3 footer_social_links">
+              <h4>I nostri social Networks</h4>
+              
+              <div class="social_icone">
+              
+                <a href="https://www.facebook.com" target="_blank"><img src="Immagini/facebook.png" width="10%" height="10%" class="icone_margine"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="Immagini/instagram.png" width="10%" height="10%" class="icone_margine"></a>
+                <a href="https://www.tiktok.com/" target="_blank"><img src="Immagini/tiktok.png" width="10%" height="10%" class="icone_margine"></a>                           
+                <a href="https://www.youtube.com" target="_blank"><img src="Immagini/youtube.png" width="10%" height="10%" class="icone_margine" id="yt_margine"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="Immagini/linkedin.png" width="10%" height="10%" class="icone_margine"></a>
+                
+                                         
+
+                
+              </div>
+            </div>
+  
+          </div>
+
+          <div class="row" id="md39">
+            <p>Copyright © 2022 | Jarmtour S.p.A. Sede Legale: Via dei fori imperiali, 35 - 00184 Roma - Italia | Tel. (+39)012.3456789 | Capitale Sociale sottoscritto e versato: € 2.262.014
+              Codice fiscale: 12345678912 | Partita IVA: 12345678912</p>
+          </div>
+        
+        </div>
+      </div>
+    </body>
+</html>

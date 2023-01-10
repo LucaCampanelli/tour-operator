@@ -1,0 +1,533 @@
+/*footer, header*/
+.elenco {
+    list-style-type: none;
+    margin-top: 40px;
+    }
+
+.elenco a, .btn a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    }
+
+.barra_ricerca{
+    width: 140%;
+}
+
+.hover_header:hover a{
+    font-weight: 600;
+    transform: scale(1.2);
+    color: #0D6EFD;
+}
+
+.hover_footer:hover a{
+    transform: scale(1.2);
+}
+
+#usericon_margin{
+    margin-left: 10%;
+}
+
+.sticky_header01{
+    background-color: white;
+    padding: 0.5%;
+}
+
+#md39{
+    font-size: 12px;
+    margin-top: 3%;
+}
+
+
+.nav {
+    margin-left: 40px;         /*controllare*/
+}
+
+.footer-links{
+margin-top: -1%;
+}
+
+.footer_social_links{
+    margin-top: 2%;
+}
+
+.newsletter_footer{
+    margin-top: 1%;
+}
+
+.social_icone{
+    text-align: center;
+}
+
+.icone_margine{
+    margin-right: 5%;
+}
+
+#yt_margine{
+    margin-top: 3%;
+}
+
+.icone_margine:hover{
+    transform: scale(1.3);
+}
+/*
+html, body, .container{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-top{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+*/
+/*sezione carosello*/
+/*
+.container-fluid{
+    position:relative;
+}*/
+
+.container-fluid{
+    margin-top: -2%;
+    margin-bottom: -2%;
+}
+
+.carosello_immagini{
+border-radius: 10px;
+}
+
+
+/*home*/
+.sfondo_testo_carosello{
+    backdrop-filter: blur(1px);
+    font-size: 18px;
+    border-radius: 10px;
+    width: 50%;
+    margin-left: 20%;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+.posizione_scritte{
+    top: 5%;
+    right: 5%;
+}
+
+.colore_bottone_carosello{
+    background-color: aliceblue;
+}
+
+.colore_bottone_carosello:hover{
+    transform: scale(1.1);                                       /*NON FUNZIONA, CAPIRE IL MOTIVO*/
+    color: aliceblue;
+}
+
+.scritte_colore_carousel:hover{
+    color: white;
+}
+
+/* CHIEDERE ALTEZZA IN % NON FUNZIONA
+.pr46{
+    height: 500px;
+}*/
+
+/*VEDERE DOV'è E CANCELLARE
+.border-radius-carosello{
+    border-radius: 10px;
+}*/
+
+
+
+
+/*BOX ALTERNATIVI ALTRE DESTINAZIONI*/
+
+.box_alternativi{
+
+    margin-top: 5%;
+    width: 250px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.box_vantaggi{
+    margin-top: 5%;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 14px;
+    text-align: center;
+    padding: 5%;
+}
+
+.md04{
+    margin-bottom: 5%;
+}
+
+.padding_01{
+    padding: 2%;
+}
+
+.foto_kl{
+    margin-bottom: 5%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#md03{
+    margin: 2% 5% 2% 5%;
+}
+
+
+/*Descrizione vantaggi*/
+.pr47{
+    margin-top: 5px;
+}
+
+.md40{
+    text-align: center;
+    margin-top: 4%;
+    font-size: 28px;
+}
+
+.pr48{
+    text-align: center;
+    align-items: center;
+
+}
+
+.pr49{
+    font-size: 14px;
+}
+
+.card-title h5{
+    font-size: 18px;
+}
+
+/*altri viaggi*/
+
+.viaggi{
+    display: flex;
+}
+
+
+/*PAGINA CHI SIAMO*/
+
+.chisiamo{
+    margin-top: 50px;
+}
+
+.imgchisiamo{
+    border-radius: 10px;
+}
+
+#md41{
+    margin-top: 30px;
+}
+
+#md42{
+    margin-top: 50px;
+}
+
+.h3-chisiamo{
+    text-align: center;
+}
+/*PAGINA DESTINAZIONI*/
+
+.info_destinazioni{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.row_destinazioni{
+    margin-bottom: 80px;
+}
+
+/*PAGINA DESTINAZIONI*/
+
+.boxpanoramica{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(immagini/cielo.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#md43{
+    position: absolute;
+    overflow: hidden;
+    left: 38%;
+    top: 65%;
+    backdrop-filter: blur(1px);
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+.scrittemd01{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+
+.primasezione{
+    text-align: center;
+}
+
+.box_destinazioni{
+    position: relative;
+    margin-top: 5%;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+
+.img1_destinazioni{
+    background-image: url(Immagini/Caraibi.jpg);
+    background-size: cover;
+}
+
+.img2_destinazioni{
+    background-image: url(Immagini/vistafiordi.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.img3_destinazioni{
+    background-image: url(Immagini/giappone.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.h3mete{
+    position: absolute;
+    overflow: hidden;
+    left: 34%;
+    top: 2%;
+    color: white;
+    backdrop-filter: blur(1px);
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+.h5mete{
+    position: absolute;
+    overflow: hidden;
+    left: 40%;
+    top: 5%;
+    color: white;
+    text-align: center;
+    backdrop-filter: blur(1px);
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+.h5metefuerte{
+    left: 35%;
+}
+
+.zoom_hover:hover{
+    transform: scale(1.1);
+}
+
+
+/*ALTRE DESTINAZIONI*/
+.scritte_altre_destinazioni{
+    color: black;
+    font-weight: 600;
+
+}
+
+#md57{
+    margin-left: 2%;
+}
+
+.box_altre_destinazioni{
+    position: relative;
+    height: 400px;
+    width: 550px;
+    border-radius: 10px;
+}
+
+.box_altre_destinazioni_piccoli{
+    position: relative;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.h3mete_2{
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+.h3mete_3{
+    position: absolute;
+    top: 5%;
+    left: 28%;
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+
+}
+
+.nuovazelanda{
+    left: 30%;
+}
+
+.cile{
+    left: 40%;
+}
+
+.costarica{
+    left: 25%;
+}
+
+.kenya{
+    left: 34%;
+}
+
+.madagascar{
+    left: 36%;
+}
+
+.cina{
+    left: 45%;
+}
+
+.corea{
+    left: 16%;
+}
+
+.italia{
+    left: 37%;
+}
+
+.croazia{
+    left: 30%;
+}
+.sfondo_testo_img1{
+    backdrop-filter: blur(1px);
+    border-radius: 10px;
+}
+
+/*EUROPA*/
+.img1_altredest{
+    background-image: url(Immagini/santorini.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+
+.img2_altredest{
+    background-image: url(Immagini/dalmazia.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.img3_altredest{
+    background-image: url(Immagini/Spiagge-Sardegna-La-Pelosa.jpg);
+    background-size: cover;
+    background-position: top;
+}
+/*ASIA*/
+.img4_altredest{
+    background-image: url(Immagini/PechinoRiflessi.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.img5_altredest{
+    background-image: url(Immagini/maldive.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.img6_altredest{
+    background-image: url(Immagini/corea.jpg);
+    background-size: cover;
+    background-position: top;
+}
+/*AFRICA*/
+.img7_altredest{
+    background-image: url(Immagini/madagascar.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.img8_altredest{
+    background-image: url(Immagini/Kenia.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+
+.img9_altredest{
+    background-image: url(Immagini/marocco_sahara_1900_1070.jpg);
+    background-size: cover;
+    background-position: top;
+}
+/*AMERICA*/
+.img10_altredest{
+    background-image: url(Immagini/canada.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.img11_altredest{
+    background-image: url(Immagini/cile.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.img12_altredest{
+    background-image: url(Immagini/costarica.jpg);
+    background-size: cover;
+    background-position: top;
+}
+/*OCEANIA*/
+.img13_altredest{
+    background-image: url(Immagini/nuovazelanda.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.img14_altredest{
+    background-image: url(Immagini/polinesia.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.img15_altredest{
+    background-image: url(Immagini/australia.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+/*CONTATTI*/
+.contatti_scritte{
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+}
+
+.testo_card_contatti{
+    color: black;
+}
+
+#bordi_foto_contatti{
+    border-radius: 10px;
+}
+
+
+/*FUERTEVENTURA*/
+.titolo_carosello_fuerte{
+    color: white;
+    text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+    backdrop-filter: blur(1px);
+}

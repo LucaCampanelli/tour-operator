@@ -1,0 +1,184 @@
+body {
+    background-color:white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-justify: auto;
+    text-align: left;
+}
+
+.h5login {
+    text-align:left;
+}
+
+.icon {
+    margin: 4%;
+}
+/*stile accedi*/
+.fm {
+    margin: 10% auto;
+    padding: 10%;
+}
+#mg {
+    margin: 4% 4% 4% 4%;
+    display: inline;
+}
+#ff {
+    margin: 5% 10% 5% 10%;
+}
+.btn-mio {                         /*COLORE BASE*/
+    background-color: #60b0ff;
+    text-decoration: wavy;
+    color:darkblue;
+    border: 2px solid darkblue;  
+}
+.spaz {
+    margin: auto;
+}
+
+.mouse:hover {                    /*HOVER BTN*/
+    background-color: rgb(96, 233, 243) !important;
+    border: 2px solid darkblue !important;
+    color: darkblue !important;
+    transform: scale(1.1);
+}
+#centra {
+    margin: 3%;
+    padding: 3%;
+    border: 3px groove lightskyblue;
+    border-radius: 5%;
+}
+#centra1 {
+    margin: 1%;
+    padding: 2%;
+}
+#allinea {
+    box-align:right;
+}
+li {
+    margin:3% auto;
+    list-style-type: none;
+}
+
+
+.sfondo {
+    position: relative; 
+    
+}
+
+.sfondo::before {
+    content:"";
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left:0;
+    top:0;
+    opacity:0.6;
+    background-image: url(immagini/sfondologin.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 10px;
+       
+}
+.sfondo-content {
+    position: relative;
+}
+
+.bgriquadro { position:relative;}
+
+.bgriquadro::before {
+    content:"";
+    height: 100%;
+    width: 100%;
+    background-color:#fff;
+    opacity:0.6;
+    position:absolute;
+    display:block;
+    left:0;
+    top:0;
+    background-size: cover;
+    border-radius: 5%;
+}
+.bgriquadro-content {
+    position:relative;
+}
+
+
+/*login*/
+.btn-2 {
+    background-color: rgb(227, 240, 250) !important;
+    text-decoration: wavy !important;
+    color: darkblue !important;
+    border: solid darkblue !important;
+    width:35% !important;
+
+}
+
+#accedi {
+    margin: 2px 2px 2px 20px;
+    padding:2 px;
+}
+
+#btnmargin {
+    margin: 5px auto;
+}
+
+.color {
+    text-align: center;
+    color: #60b0ff;
+    margin: 3% auto;
+
+}
+
+/*stile per form js*/
+span{
+    color:red;
+    display:none;
+}
+
+/*pagina iscrizione*/
+#bordo {
+    margin: 3% auto;
+    padding: 50px;
+    border: 3px dotted #60b0ff;
+    width:100%;
+}
+h5.stile {
+    text-decoration: solid;
+    margin:5px auto;
+    color:darkblue;
+}
+
+#btnsize {
+    align-items: center;
+    margin: 3% 40% 0% 40%;
+    padding: 1% 2% 1% 2%;
+    width: 30% auto;
+}
+/*footer*/
+.elenco {
+    list-style-type: none;
+    margin-top: 40px;
+    }
+
+.elenco a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    }
+
+#md39{
+    margin-top: 60px;
+    font-size: 12px;
+}
+
+li.bc {
+    margin:2px auto;
+    padding: 0px;
+}
+

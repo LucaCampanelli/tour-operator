@@ -1,0 +1,60 @@
+div.bb {
+    margin-top: 20px;
+  }
+  div.aa {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  div.titolo1 {
+    margin-left:47%;
+  }
+  div.titolo2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .container1 {
+    position: relative;
+    text-align: center;
+    color: black; 
+   }
+   .centered {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   }
+   .titoli4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  ul {
+    list-style-type: none;}
+
+    .btn-primary2{
+        color: white;
+        margin-top: 20px;
+        background-color: blue;
+      }
+  .elenco {
+    list-style-type: none;
+    margin-top: 40px;
+    }
+
+.elenco a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    }
+
+#md39{
+    margin-top: 60px;
+    font-size: 12px;
+}
+.accordion-item{margin-left: 20%;
+  margin-right: 20%
+}
+#ab{margin-left:100px;
+  margin-top:20px;
+}
